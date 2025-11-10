@@ -1,2 +1,2 @@
-# First-React-App
+# React-Git
 my first react app
