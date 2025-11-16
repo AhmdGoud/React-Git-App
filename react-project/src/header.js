@@ -1,4 +1,6 @@
-export  function Header(){
+export  function Header({head = 'from default'}){ // this is called object destructing
+    // const thehead = props.head
+
     const h1style = {
         textAlign: "center",
         backgroundColor: 'red',
@@ -7,7 +9,15 @@ export  function Header(){
     }
     return (
         <div>
-            <h1 style={h1style}>First React App For Me</h1>
+            <h1 style={h1style}>{head}</h1>
         </div>
     );
 }
+
+// const ob = {
+//     user: 'ahmed',
+//     age: 28
+// }
+
+// const {theuser, theage} = ob;
+// console.log(theuser, theage)
