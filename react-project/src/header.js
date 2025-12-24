@@ -14,10 +14,3 @@ export  function Header({head = 'from default'}){ // this is called object destr
     );
 }
 
-// const ob = {
-//     user: 'ahmed',
-//     age: 28
-// }
-
-// const {theuser, theage} = ob;
-// console.log(theuser, theage)
